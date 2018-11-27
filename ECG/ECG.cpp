@@ -43,7 +43,7 @@ int ECG::calculateBPM(){
       BPM = 300/nbigBox;      //Calculates the heart rate, assuming that the intervals are homogeneous.
      
     }else{    //If there are no bigBoxes, we normalize the heart rate to zero.
-      BPM = 0;
+      BPM = -1;
     
     }
      
